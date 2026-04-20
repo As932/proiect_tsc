@@ -40,8 +40,6 @@ Conexiunile fizice între MCU și periferice au fost rutate pentru a minimiza î
 | **E-Paper (EPD)** | `[P0.XX]` | GPIO (BUSY) | Pin de stare (Input). MCU-ul intră în sleep și așteaptă ca acest pin să semnalizeze terminarea refresh-ului fizic al ecranului. |
 | **SWD / Debug** | N/A | SWDIO / SWDCLK | Programarea se face via un conector de suprafață **TC2030-IDC** (Tag-Connect) cu 6 pad-uri, economisind masiv spațiu pe placă. |
 
-*(Notă pentru dezvoltarea SW: Verificați fișierul schematic `.sch` pentru maparea exactă a pinilor de Chip Select (CS) și Data/Command (DC) pentru afișaj).*
-
 ---
 
 ## 🔋 3. Analiza Consumului de Energie (Power Budget Estimativ)
