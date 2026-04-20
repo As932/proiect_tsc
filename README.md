@@ -32,12 +32,12 @@ Conexiunile fizice între MCU și periferice au fost rutate pentru a minimiza î
 
 | Componentă | Pin MCU | Interfață / Rol | Justificare & Funcționalitate |
 | :--- | :---: | :---: | :--- |
-| **BMA423 (IMU)** | `[P0.XX]` | I2C (SDA) | Magistrală de comunicație date. |
-| **BMA423 (IMU)** | `[P0.XX]` | I2C (SCL) | Magistrală de clock (SCL). BMA423 lucrează ca slave I2C. |
-| **BMA423 (IMU)** | `[P0.XX]` | INT | Pin de interrupt hardware. Trezește MCU-ul când detectează o mișcare a încheieturii. |
-| **E-Paper (EPD)** | `[P0.XX]` | SPI (MOSI) | Magistrala SPI rapidă pentru trimiterea frame-buffer-ului (imaginii) către ecran. |
-| **E-Paper (EPD)** | `[P0.XX]` | SPI (SCK) | Clock pentru magistrala SPI. |
-| **E-Paper (EPD)** | `[P0.XX]` | GPIO (BUSY) | Pin de stare (Input). MCU-ul intră în sleep și așteaptă ca acest pin să semnalizeze terminarea refresh-ului fizic al ecranului. |
+| **BMA423 (IMU)** | `[P0.06]` | I2C (SDA) | Magistrală de comunicație date. |
+| **BMA423 (IMU)** | `[P0.07]` | I2C (SCL) | Magistrală de clock (SCL). BMA423 lucrează ca slave I2C. |
+| **BMA423 (IMU)** | `[P0.08, P1.08]` | INT | Pin de interrupt hardware. Trezește MCU-ul când detectează o mișcare a încheieturii. |
+| **E-Paper (EPD)** | `[P0.03]` | SPI (MOSI) | Magistrala SPI rapidă pentru trimiterea frame-buffer-ului (imaginii) către ecran. |
+| **E-Paper (EPD)** | `[P0.02]` | SPI (SCK) | Clock pentru magistrala SPI. |
+| **E-Paper (EPD)** | `[P0.17]` | GPIO (BUSY) | Pin de stare (Input). MCU-ul intră în sleep și așteaptă ca acest pin să semnalizeze terminarea refresh-ului fizic al ecranului. |
 | **SWD / Debug** | N/A | SWDIO / SWDCLK | Programarea se face via un conector de suprafață **TC2030-IDC** (Tag-Connect) cu 6 pad-uri, economisind masiv spațiu pe placă. |
 
 ---
