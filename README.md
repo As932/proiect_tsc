@@ -1,6 +1,6 @@
 # ⌚ Smartwatch Hardware Design - nRF52840
 
-Acest repository conține design-ul hardware complet (Schematic, PCB Layout, fișiere de fabricație și modele 3D) pentru un smartwatch ultra-low-power, optimizat pentru eficiență energetică și portabilitate.
+Acest repository conține design-ul hardware complet (Schematic, PCB Layout, fișiere de fabricație) pentru un smartwatch ultra-low-power, optimizat pentru eficiență energetică și portabilitate.
 
 Proiectul este construit în jurul ecosistemului Nordic Semiconductor și include un afișaj E-Paper, monitorizare inteligentă a bateriei și feedback haptic, toate integrate pe un PCB custom cu o topologie densă.
 
